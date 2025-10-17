@@ -55,7 +55,7 @@
 #include <linux/usb/cdc.h>
 #include <linux/version.h>
 #include <asm/byteorder.h>
-#include <asm/unaligned.h>
+#include <linux/unaligned.h> /* Path corrected from /asm to /linux */
 
 #if (LINUX_VERSION_CODE >= KERNEL_VERSION(4, 11, 0))
 #include <linux/sched/signal.h>
